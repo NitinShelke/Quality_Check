@@ -1,5 +1,5 @@
 [project]
-name = "project"
+name = "quality_check"
 version = "0.1.0"
 description = "This is a sample Python project following industry standards."
 readme = "README.md"
@@ -21,11 +21,24 @@ classifiers = [
 ]
 
 dependencies = [
-    "requests",   # HTTP requests handling
-    "pydantic",   # Data validation & parsing
-    "numpy",      # Numerical computing
+    "requests", # HTTP requests handling
+    "pydantic", # Data validation & parsing
+    "numpy", # Numerical computing
     "pandas",
-    "python-box"
+    "python-box",
+    "langchain",
+    "langchain-core",
+    "langchain-community",
+    "langgraph",
+    "langgraph-checkpoint-sqlite",
+    "langchain-text-splitters",
+    "langchain-tavily",
+    "faiss-cpu",
+    "tiktoken",
+    "langsmith",
+    "python-dotenv",
+    "pyyaml",
+    "ipykernel",
 ]
 
 [project.optional-dependencies]

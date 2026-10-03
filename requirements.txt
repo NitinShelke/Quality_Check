@@ -1,0 +1,26 @@
+# --- Core agent frameworks ---
+langchain
+langchain-core
+langchain-community
+langgraph
+langgraph-checkpoint-sqlite
+
+
+# --- Tools, retrieval & memory ---
+langchain-text-splitters
+langchain-tavily
+faiss-cpu
+tiktoken
+
+# --- Observability / tracing ---
+langsmith
+
+# --- Config, validation & utilities ---
+pydantic
+python-dotenv
+pyyaml
+python-box
+requests
+
+# --- Notebook support ---
+ipykernel
